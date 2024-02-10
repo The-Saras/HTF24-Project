@@ -1,0 +1,20 @@
+To run the Detection Model
+
+1. Create virtual envirnment :
+   python -m venv myenv 
+2. Activate the envirnment:
+   myenv/Scripts/activate
+3.Installing required packeges:
+   pip install -r requirements.txt
+3. Setting up the server:
+  uvicorn app:app --reload
+2. Setting up the camera :
+  python send.py
+ 
+
+To Play Game:
+
+1.Complete all the above steps and only then start the game.
+2. Bring Index Fingre infront of Camera to shoot missile
+3. Bring Index and Middle Finger infront of Camera to shoot missile.
+4. Right and Left Arrow keys can be used to Move Player around.
